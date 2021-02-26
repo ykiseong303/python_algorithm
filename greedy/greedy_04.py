@@ -13,7 +13,7 @@ num = input()
 result = 0
 for i in range(len(num)) : 
     print(num[i])
-    if int(num[i]) <= 1 : 
+    if int(num[i]) <= 1 or result <= 1 : 
         result += int(num[i])
     else : 
         result *= int(num[i])
