@@ -19,7 +19,7 @@ def BFS(graph,start,visited) :
             if not visited[i] : 
                 queue.append(i)
                 visited[i] = True
-
+ 
 def DFS(graph,start, visited) : 
     visited[start] = True 
     print(start, end=' ')
