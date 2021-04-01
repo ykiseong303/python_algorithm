@@ -7,7 +7,7 @@ def dfs (start, target,length,visit,answer,temp) :
             if visit[i][1] == 0:
                 visit[i][1] = 1
                 print(visit)
-                answer.append(target)
+                answer.append(target) 
                 break   
     for j in range(length) :
         # print(target)
