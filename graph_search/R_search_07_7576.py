@@ -12,7 +12,7 @@
 #       큐에 넣고 그 큐를 bfs를 조건에 맞게 돌리면 된다 
 from collections import deque
 import sys
-
+ 
 def bfs(lst) : 
     while lst :
         x, y = lst.popleft() 
