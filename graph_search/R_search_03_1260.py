@@ -9,7 +9,7 @@
 
 from collections import deque
  
-def bfs(start) : 
+def bfs(start) :  
     visited = [start]
     queue = deque([start])
     while queue : 
