@@ -11,7 +11,7 @@ from collections import deque
  
 def bfs(start) :  
     visited = [start]
-    queue = deque([start])
+    queue = deque([start]) 
     while queue : 
         x = queue.popleft()
         for i in range(N+1) : 
