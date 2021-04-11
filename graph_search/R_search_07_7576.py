@@ -11,7 +11,7 @@
 #       기준이 되는 노드가 동시에 발생하므로 (이런점에서 bfs를 사용해야한다) 1인 부분만
 #       큐에 넣고 그 큐를 bfs를 조건에 맞게 돌리면 된다 
 from collections import deque
-import sys
+import sys  
  
 def bfs(lst) : 
     while lst :
