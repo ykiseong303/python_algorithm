@@ -7,7 +7,7 @@
 # 목적 : 입력받은 그래프를 DFS와 BFS로 수행한 결과를 출력한다
 # 접근 : 간선이 연결되는 두 정점만이 입력되므로 이를 매트릭스 상에 표현한다
 
-from collections import deque
+from collections import deque 
  
 def bfs(start) :  
     visited = [start]
