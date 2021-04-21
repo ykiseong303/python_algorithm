@@ -37,7 +37,7 @@ def dfs_big (start, visited) : # 숫자가 큰 값부터 탐색하는 경우
     return visited
 
 N,M,V = map(int, input().split())
-# 노드가 1번부터이므로 편의를 위해 N+1개씩 생성
+# 노드가 1번부터이므로 편의를 위해 N+1개씩 생성 
 matrix = [[0 for _ in range(N+1)] for _ in range(N+1)]
 for _ in range(M) : 
     x, y = map(int, input().split())
