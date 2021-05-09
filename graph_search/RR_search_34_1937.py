@@ -42,7 +42,7 @@ dx, dy = [-1,1,0,0],[0,0,-1,1]
 memo = [[0]*N for _ in range(N)] # 이전 값을 기록하기 위한 DP리스트 생성
 max_val = 0
 result = 0
-for i in range(N) : 
+for i in range(N) :  
     for j in range(N) :
         result = dfs(i,j)
         max_val = max(max_val, result)
