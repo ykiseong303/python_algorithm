@@ -9,7 +9,7 @@
 ## 목적 : 입력되는 문자열을 최소한의 시간으로 출력하기
 ## 접근 : 다음 문자로 갈 수 있는 최소한의 시간이 걸리는 방향으로 움직이기
 
-var = list(input())
+var = list(input()) 
 result = []
 for v in var : 
     a = ord(v) - 64
