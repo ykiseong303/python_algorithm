@@ -17,7 +17,7 @@
 
 import sys 
 sys.setrecursionlimit(10**6)
-input = sys.stdin.readline
+input = sys.stdin.readline 
 
 def dfs(x1,y1) : 
     if memo[x1][y1] : # 초기 값이 0이 아닌 다른 값인경우(이미 방문한경우)
