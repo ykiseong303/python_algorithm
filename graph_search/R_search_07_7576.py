@@ -81,7 +81,7 @@ for _ in range(M) :
 index = 1
 while index < N*M : 
     for i in range(M) : 
-        for j in range(N) : 
+        for j in range(N) :   
             # print(i,j)
             bfs(i,j)
     index += 1 
