@@ -18,7 +18,7 @@ N, M = map(int, input().split())
 visited = set()
 if N == M : 
     print(0)
-else : 
+else :  
     queue = deque([(N,0)])
     while queue : 
         print(queue)
