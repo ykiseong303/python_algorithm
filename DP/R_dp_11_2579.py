@@ -14,7 +14,7 @@ N = int(input())
 lst = [0] * 300 # 301까지이고 인덱스는 0부터이므로 300까지 생성
 d = [0] * 300 # dp테이블  
 for i in range(N) : 
-    lst[i] = int(input())
+    lst[i] = int(input()) 
 # dp테이블의 초기값 설정
 d[0] = lst[0]
 d[1] = lst[0]+lst[1]
