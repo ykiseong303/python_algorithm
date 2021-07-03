@@ -15,7 +15,7 @@ d = [[0]* 10 for _ in range(N)]
 # dp테이블을 초기화  
 for i in range(10) : 
     if i == 0 : 
-        d[0][i] = 0
+        d[0][i] = 0 
         continue
     d[0][i] = 1
 for i in range(1,N) : 
