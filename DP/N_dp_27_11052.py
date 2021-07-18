@@ -10,7 +10,7 @@
 N = int(input())
 lst = [0] + list(map(int, input().split()))
 d = [0] * (N+1)
-d[1] = lst[1]
+d[1] = lst[1] 
 for i in range(2, N+1) :  
     for j in range(1,i+1) : 
         if d[i] < d[i-j] + lst[j] : 
