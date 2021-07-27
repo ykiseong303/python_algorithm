@@ -8,7 +8,7 @@
 # 접근 : dp
 
 N = int(input())
-lst = [0] + list(map(int, input().split()))
+lst = [0] + list(map(int, input().split())) 
 d = [0] * (N+1)
 d[1] = lst[1] 
 for i in range(2, N+1) :  
